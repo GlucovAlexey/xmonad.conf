@@ -1,0 +1,16 @@
+$ ghc --make xmonad.hs -i -ilib -fforce-recomp -main-is main -dynamic -v0 -outputdir /home/alexey/.xmonad/build-x86_64-linux -o /home/alexey/.xmonad/xmonad-x86_64-linux
+
+xmonad.hs:29:1: warning: [-Wtabs]
+    Tab character found here, and in 268 further locations.
+    Please use spaces instead.
+   |
+29 |         spawn "bash ~/.xmonad/bin/autostart.sh"
+   | ^^^^^^^^
+
+xmonad.hs:261:15: warning: [-Wdeprecations]
+    In the use of ‘ewmhDesktopsEventHook’
+    (imported from XMonad.Hooks.EwmhDesktops):
+    Deprecated: "Use ewmh instead."
+    |
+261 | myEventHook = ewmhDesktopsEventHook
+    |               ^^^^^^^^^^^^^^^^^^^^^
