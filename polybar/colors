@@ -6,11 +6,11 @@
 [color]
 
 ;; main colors
-background = #090A0B
+background = #0B161E
 background-alt = #282828
 foreground = #E6DFE0
 foreground-alt = #808080
-primary = #BB553F
+primary = #BB553Fi
 
 black = #000000
 white = #FFFFFF

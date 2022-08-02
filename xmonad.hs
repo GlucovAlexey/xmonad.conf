@@ -30,11 +30,11 @@ myStartupHook = do
 
 -- ## Applications ## ---------------------------------------------------------------
 -- Terminal
-myTerminal      	= "~/.xmonad/bin/xmoterm.sh"
+myTerminal      	= "/usr/bin/alacritty"
 
 -- Apps
 file_manager		= spawn "thunar"
-text_editor			= spawn "geany"
+text_editor			= spawn "nvim"
 web_browser			= spawn "firefox"
 
 -- Rofi Menus
@@ -60,8 +60,10 @@ myClickJustFocuses 		= False
 myBorderWidth   		= 1
 
 -- Border colors for focused & unfocused windows
-myFocusedBorderColor 	= "#BB553F"
-myNormalBorderColor  	= "#E6DFE0"
+myNormalBorderColor 	= "#427971"
+myNormalFocusedColor  	= "#E6DFE0"
+
+--myNormalBorderColor  	= "#E6DFE0"
 
 -- modMask : modkey you want to use
 -- mod1Mask : left alt Key
